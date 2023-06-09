@@ -16,9 +16,6 @@ namespace ConsoleApp
         {
             Console.Title = "SCRIPTER - Version 1.01";
             // Add your desired word-color mappings to the highlightColors dictionary
-            highlightColors.Add("samip", ConsoleColor.Blue);
-            highlightColors.Add("srijan", ConsoleColor.Blue);
-            highlightColors.Add("regmi", ConsoleColor.Red);
             highlightColors.Add("<html>", ConsoleColor.DarkBlue);
             highlightColors.Add("</html>", ConsoleColor.DarkBlue);
             highlightColors.Add("<head>", ConsoleColor.Blue);
