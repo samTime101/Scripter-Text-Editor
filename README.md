@@ -12,6 +12,10 @@ mainly created for HTML CSS AND JS. create your own programming experience
 
 1. Clone the repository or download the source code.
 2. Build the program using the .NET Framework.
+              Or 
+1.click on add File and download 
+2.run Scripter.exe
+           
 
 ## Usage
 
