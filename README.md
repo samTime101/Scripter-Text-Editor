@@ -1,7 +1,7 @@
 # Scripter V-1.01 By SamTime101
 
 Scripter is a command-line program that allows you to enter editor mode, open and edit files, and save the changes. It provides a basic text editor experience with features such as navigating through the text, inserting new lines, and saving the changes to a file.
-mainly created for HTML CSS AND JS. create your own programming experience
+Mainly created for HTML CSS AND JS. Create your own programming experience with Scripter!
 ## Getting Started
 
 ### Prerequisites
@@ -15,7 +15,7 @@ mainly created for HTML CSS AND JS. create your own programming experience
 
 ## OR
 
-1. click on code dropdown and download Zip 
+1. Click on code dropdown and download Zip 
 2. Extratc ZIP and run Scripter.exe
 3. You may have to continue the Windows defender during the running or download the code , if you feel any suspicious on code feel free to check ths CODE in Github codespaces
            
