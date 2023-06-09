@@ -15,9 +15,9 @@ mainly created for HTML CSS AND JS. create your own programming experience
 
 ## OR
 
-4.click on code dropdown and download Zip 
-5.Extratc ZIP and run Scripter.exe
-3.You may have to continue the Windows defender during the running or download the code , if you feel any suspicious on code feel free to check ths CODE in Github codespaces
+1. click on code dropdown and download Zip 
+2. Extratc ZIP and run Scripter.exe
+3. You may have to continue the Windows defender during the running or download the code , if you feel any suspicious on code feel free to check ths CODE in Github codespaces
            
 
 ## Usage
