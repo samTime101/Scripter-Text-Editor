@@ -2,6 +2,10 @@
 
 Scripter is a command-line program that allows you to enter editor mode and save the changes. It provides a basic text editor experience with features such as navigating through the text, inserting new lines, and saving the changes to a file.
 Mainly created for HTML CSS AND JS. Create your own programming experience with Scripter!
+
+## Website
+[Scripter Website](https://samtime101.github.io/Scripter.github.io/)
+
 ## Getting Started
 
 ### Prerequisites
