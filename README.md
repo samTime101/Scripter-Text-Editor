@@ -28,7 +28,7 @@ To run the program, use the following command:
 Upon running the program, you will see the following options:
 
 - Enter E to enter editor mode.
-- The Edit mode has been temporarily removed because of potential bugs
+- The I or Insert mode has been temporarily removed because of potential bugs
 - Enter Q to quit the program.
 
 ### Editor Mode
