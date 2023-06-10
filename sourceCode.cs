@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace ConsoleApp
 {
@@ -43,14 +44,14 @@ namespace ConsoleApp
                 );
                 Console.WriteLine(
                     @"
-				.---------.
-				| samTime |
-				'---------'
+                .---------.
+                | samTime |
+                '---------'
 "
                 );
 
                 Console.WriteLine(
-                    "Enter E to enter editor mode, I to open a file, or Q to quit the program."
+                    "Enter E to enter editor mode or Q to quit the program."
                 );
                 input = Console.ReadLine();
                 if (input.ToUpper() == "E")
@@ -58,28 +59,16 @@ namespace ConsoleApp
                     isInEditorMode = true;
                     EditorMode();
                     isInEditorMode = false;
-                }
-                else if (input.ToUpper() == "I")
-                {
-                    Console.WriteLine("Enter the path of the file to open: ");
-                    string filePath = Console.ReadLine();
-                    if (File.Exists(filePath))
-                    {
-                        string text = File.ReadAllText(filePath);
-                        isInEditorMode = true;
-                        EditorMode(text);
-                        isInEditorMode = false;
-                    }
-                    else
-                    {
-                        Console.Clear();
-                        Console.WriteLine(filePath + " doesnot exist");
-                    }
+                
                 }
                 else if (input.ToUpper() == "Q")
                 {
                     break; // Exit the while loop and terminate the program
                 }
+		else{
+                        Console.Clear(); // Clear the console screen
+                        // Exit the EditorMode method
+}
             }
 
             Console.WriteLine("Press any key to exit...");
@@ -120,10 +109,24 @@ namespace ConsoleApp
                         Console.SetCursorPosition(currentPosition, currentLine);
                         Console.Write(" ");
                         Console.SetCursorPosition(currentPosition, currentLine);
-                        if (text.Length > 0)
-                        {
-                            text = text.Remove(text.Length - 1);
-                        }
+                        
+if (text.Length > 0)
+{
+    //try to find the index within the text varialbe based on currentLine and currentPosition
+
+    //split text into lines
+   var lines = text.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+
+    //get the starting index eg. currentLine is 5, we want to ignore first 4 lines
+    var startIndex = lines.Take(currentLine - 1).Sum(x => x.Length + Environment.NewLine.Length);
+
+    //shift startIndex by the currentPosition
+    var currentIndex = startIndex + currentPosition;
+
+    //add whitespace, just like Console.Write(" ") did
+    text = text.Substring(0, currentIndex) + " " + text.Substring(currentIndex + 1);
+}
+
                     }
                     else if (
                         keyInfo.Modifiers == ConsoleModifiers.Control && keyInfo.Key == ConsoleKey.X
@@ -169,12 +172,18 @@ namespace ConsoleApp
                     {
                         // Ignore control characters
                     }
-                    else
-                    {
-                        text += keyInfo.KeyChar;
-                        Console.Write(keyInfo.KeyChar);
-                        currentPosition++;
-                    }
+ else
+{
+    //text += keyInfo.KeyChar;
+    var lines = text.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+    var startIndex = lines.Take(currentLine - 1).Sum(x => x.Length + Environment.NewLine.Length);
+    var currentIndex = startIndex + currentPosition;
+
+    text = text.Substring(0, currentIndex) + keyInfo.KeyChar + text.Substring(currentIndex);
+
+    Console.Write(keyInfo.KeyChar);
+    currentPosition++;
+}
 
                     // Check if any highlighted words are present in the text and apply
                     // the corresponding colors
