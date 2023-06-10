@@ -50,7 +50,7 @@ In editor mode, you can start typing and edit the text. The following keyboard s
 
 ### Opening a File
 
-To open a file, select the option "I" and provide the path of the file when prompted. If the file exists, its content will be loaded into the editor mode, allowing you to make changes.
+The previously I mode or Opening File mode is Currently discarded due to potential errors
 
 ### Saving a File
 
