@@ -1,6 +1,6 @@
 # Scripter V-1.01 By SamTime101
 
-Scripter is a command-line program that allows you to enter editor mode, open and edit files, and save the changes. It provides a basic text editor experience with features such as navigating through the text, inserting new lines, and saving the changes to a file.
+Scripter is a command-line program that allows you to enter editor mode and save the changes. It provides a basic text editor experience with features such as navigating through the text, inserting new lines, and saving the changes to a file.
 Mainly created for HTML CSS AND JS. Create your own programming experience with Scripter!
 ## Getting Started
 
@@ -28,7 +28,7 @@ To run the program, use the following command:
 Upon running the program, you will see the following options:
 
 - Enter E to enter editor mode.
-- Enter I to open a file.
+- The Edit mode has been temporarily removed because of potential bugs
 - Enter Q to quit the program.
 
 ### Editor Mode
