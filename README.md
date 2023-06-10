@@ -53,7 +53,7 @@ In editor mode, you can start typing and edit the text. The following keyboard s
 
 ### Opening a File
 
-The previously I mode or Opening File mode is Currently discarded due to potential errors
+The previously Opening File mode or I mode is Currently discarded due to potential errors
 
 ### Saving a File
 
