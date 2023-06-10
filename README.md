@@ -21,8 +21,11 @@ Mainly created for HTML CSS AND JS. Create your own programming experience with 
 
 1. Click on code dropdown and download Zip 
 2. Extratc ZIP and run Scripter.exe
-3. You may have to continue the Windows defender during the running or download the code , if you feel any suspicious on code feel free to check ths CODE in Github codespaces
-           
+3. You may have to continue the Windows defender during the running or downloading the code , if you feel any suspicion on code feel free to check the CODE
+
+##You Can Alos
+
+check on the website https://samtime101.github.io/Scripter.github.io/ and download and run the Scripter text editor
 
 ## Usage
 
