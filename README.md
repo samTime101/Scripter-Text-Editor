@@ -23,7 +23,7 @@ Mainly created for HTML CSS AND JS. Create your own programming experience with 
 2. Extratc ZIP and run Scripter.exe
 3. You may have to continue the Windows defender during the running or downloading the code , if you feel any suspicion on code feel free to check the CODE
 
-##You Can Alos
+## You May Also
 
 check on the website https://samtime101.github.io/Scripter.github.io/ and download and run the Scripter text editor
 
