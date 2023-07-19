@@ -10,7 +10,7 @@ Check some questions out here :
  If you cannot access the link then Stackoverflow probably removed my question
 <br>
  
-![Problem](problem.jpg)
+![Problem](problem.png)
 
 
 # Scripter V-1.01 By SamTime101
