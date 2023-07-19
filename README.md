@@ -1,3 +1,10 @@
+# How did i do this?
+cause stack overflow is there to scold me
+check the questions out here 
+[https://stackoverflow.com/questions/76445457/how-to-fix-default-cursor-position-in-i-mode-c-sharp]
+[https://stackoverflow.com/questions/76439839/fixing-the-backspace-key-bug]
+[https://stackoverflow.com/questions/76441585/how-to-remove-the-word-repeating-bug-in-c-sharp]
+
 # Scripter V-1.01 By SamTime101
 
 Scripter is a command-line program that allows you to enter editor mode and save the changes. It provides a basic text editor experience with features such as navigating through the text, inserting new lines, and saving the changes to a file.
