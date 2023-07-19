@@ -6,6 +6,9 @@ Check some questions out here :
 [https://stackoverflow.com/questions/76445457/how-to-fix-default-cursor-position-in-i-mode-c-sharp]
 [https://stackoverflow.com/questions/76439839/fixing-the-backspace-key-bug]
 
+ If you cannot access the link then Stackoverflow probably removed my question
+![Problem](problem.jpg)
+
 
 # Scripter V-1.01 By SamTime101
 
