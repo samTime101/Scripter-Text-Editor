@@ -1,12 +1,15 @@
 # How did i do this?
 cause stack overflow is there to scold me .
+<br>
 Check some questions out here :
 
 [https://stackoverflow.com/questions/76441585/how-to-remove-the-word-repeating-bug-in-c-sharp]
 [https://stackoverflow.com/questions/76445457/how-to-fix-default-cursor-position-in-i-mode-c-sharp]
 [https://stackoverflow.com/questions/76439839/fixing-the-backspace-key-bug]
-
+<br>
  If you cannot access the link then Stackoverflow probably removed my question
+
+ <br>
 ![Problem](problem.jpg)
 
 
