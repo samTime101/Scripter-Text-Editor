@@ -1,5 +1,5 @@
 # How did i do this?
-cause stack overflow is there to scold me .
+Cause stacking manages the Overflow
 <br>
 Check some questions out here :
 
@@ -9,7 +9,8 @@ Check some questions out here :
 <br>
  If you cannot access the link then Stackoverflow probably removed my question
 <br>
- 
+
+# My One Of Many Questions which got Removed
 ![Problem](./problem.PNG)
 
 
